@@ -1,0 +1,40 @@
+{
+  "name": "jsharmony-cms-empty",
+  "version": "1.0.1",
+  "description": "jsHarmony CMS Empty Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "create-database": "node node_modules/jsharmony-factory/init/create.js",
+    "init-database": "node node_modules/jsharmony-factory/init/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apHarmony/jsharmony-cms-empty"
+  },
+  "keywords": [
+    "jsHarmony CMS",
+    "Empty Site",
+    "CMS",
+    "jsHarmony"
+  ],
+  "author": "apHarmony <contact@apharmony.com> (http://www.apharmony.com/)",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/apHarmony/jsharmony-cms-empty/issues"
+  },
+  "homepage": "https://github.com/apHarmony/jsharmony-cms-empty",
+  "dependencies": {
+    "async": "^2.6.2",
+    "jsharmony": "^1.1.243",
+    "jsharmony-factory": "^1.1.116",
+    "jsharmony-cms": "^1.0.36",
+    "jsharmony-db-sqlite": "^1.1.48",
+    "jsharmony-image-sharp": "^1.0.5",
+    "lodash": "^4.17.19",
+    "winser": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  }
+}

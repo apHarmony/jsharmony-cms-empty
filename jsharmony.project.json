@@ -1,0 +1,28 @@
+{
+  "database": {
+    "type": ["mssql","pgsql","sqlite"]
+  },
+  "installer": {
+    "jsharmony_factory": true,
+    "jsharmony_factory_client_portal": false,
+    "scripts": {
+      "post_db_init": "init/init.db.post.js"
+    },
+    "executables": [
+      "app.js"
+    ],
+    "generate_self_signed_certs": [
+      {
+        "key": "cert/localhost.key",
+        "cert": "cert/localhost.crt"
+      }
+    ],
+    "generate_nstart": true
+  },
+  "package": {
+    "dependencies": {
+      "jsharmony-cms": "^1.0.0",
+      "jsharmony-image-sharp": "^1.0.0"
+    }
+  }
+}
