@@ -10,10 +10,6 @@ var ejs = require('jsharmony/lib/ejs');
 exports = module.exports = function(jsh, config, dbconfig){
 
   config.app_name = 'jsHarmony CMS'; //REQUIRED
-
-  config.app_settings = _.extend(config.app_settings, {
-    publish_preview_site_port: 8082,
-  });
   
   jsh.Extensions.image = require('jsharmony-image-sharp');
 
