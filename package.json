@@ -1,6 +1,6 @@
 {
   "name": "jsharmony-cms-empty",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "jsHarmony CMS Empty Project",
   "main": "app.js",
   "scripts": {
