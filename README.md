@@ -23,7 +23,8 @@ jsHarmony CMS Empty Project
    jsharmony create project cms
    ````
    This will download the project source and install in the current folder.
-   The installer will generate the admin username and password
+   
+   The installer will generate the admin username and password.
 
    If `jsharmony` doesn't run, ensure the Node.js npm folder is in your system PATH variable.
    
